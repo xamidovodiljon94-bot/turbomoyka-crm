@@ -1,0 +1,148 @@
+{
+  "theme": {
+    "mode": "light",
+    "archetype": "4_Swiss_High_Contrast",
+    "rationale": "High-contrast minimalist layout tailored for a fast-paced business environment (Car Wash). Uses stark whites, deep navy for authority, and signal blue for kinetic actions. Prioritizes data legibility and operational speed."
+  },
+  "colors": {
+    "background": {
+      "primary": "#FFFFFF",
+      "secondary": "#F8FAFC",
+      "tertiary": "#F1F5F9"
+    },
+    "text": {
+      "primary": "#0A1128",
+      "secondary": "#475569",
+      "muted": "#94A3B8",
+      "inverse": "#FFFFFF"
+    },
+    "brand": {
+      "primary": "#0052FF",
+      "primary_hover": "#0043D1",
+      "dark_blue": "#0A1128",
+      "light_blue": "#EFF6FF"
+    },
+    "status": {
+      "waiting": {
+        "bg": "#FEF3C7",
+        "text": "#B45309",
+        "border": "#FDE68A"
+      },
+      "washing": {
+        "bg": "#DBEAFE",
+        "text": "#1D4ED8",
+        "border": "#BFDBFE"
+      },
+      "completed": {
+        "bg": "#D1FAE5",
+        "text": "#047857",
+        "border": "#A7F3D0"
+      },
+      "paid": {
+        "bg": "#0A1128",
+        "text": "#FFFFFF",
+        "border": "#0A1128"
+      }
+    },
+    "borders": {
+      "default": "#E2E8F0",
+      "focus": "#0052FF"
+    }
+  },
+  "typography": {
+    "font_families": {
+      "heading": "Outfit, system-ui, sans-serif",
+      "body": "IBM Plex Sans, system-ui, sans-serif",
+      "mono": "IBM Plex Mono, monospace"
+    },
+    "hierarchy": {
+      "h1": "text-3xl sm:text-4xl font-bold tracking-tight text-[#0A1128]",
+      "h2": "text-2xl sm:text-3xl font-semibold tracking-tight text-[#0A1128]",
+      "h3": "text-xl sm:text-2xl font-semibold text-[#0A1128]",
+      "h4": "text-lg font-medium text-[#0A1128]",
+      "body": "text-base text-[#475569] leading-relaxed",
+      "small": "text-sm text-[#475569]",
+      "label": "text-xs font-semibold uppercase tracking-[0.1em] text-[#94A3B8]",
+      "metric_value": "text-4xl font-black tracking-tighter text-[#0A1128]"
+    }
+  },
+  "layout_and_spacing": {
+    "strategy": "Control Room Grid (Mode B)",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "grid_gaps": {
+      "dense": "gap-4",
+      "standard": "gap-6",
+      "loose": "gap-8"
+    },
+    "card_padding": "p-6 sm:p-8",
+    "radii": {
+      "card": "rounded-none sm:rounded-lg",
+      "button": "rounded-md",
+      "input": "rounded-md"
+    },
+    "shadows": {
+      "card": "shadow-sm",
+      "floating": "shadow-[0_8px_30px_rgb(0,0,0,0.08)]",
+      "none": "shadow-none"
+    }
+  },
+  "components": {
+    "cards": {
+      "style": "flat",
+      "classes": "bg-white border border-slate-200 shadow-sm transition-all duration-200 hover:border-blue-200"
+    },
+    "buttons": {
+      "primary": "bg-[#0052FF] text-white hover:bg-[#0043D1] font-medium transition-colors",
+      "secondary": "bg-[#F1F5F9] text-[#0A1128] hover:bg-[#E2E8F0] font-medium transition-colors",
+      "outline": "border border-slate-200 text-[#0A1128] hover:border-slate-300 hover:bg-slate-50 transition-colors"
+    },
+    "inputs": {
+      "style": "bg-white border border-slate-200 focus:border-[#0052FF] focus:ring-1 focus:ring-[#0052FF] transition-all"
+    },
+    "tables": {
+      "header": "bg-slate-50 text-xs uppercase tracking-wider text-slate-500 font-semibold border-b border-slate-200",
+      "row": "border-b border-slate-100 hover:bg-slate-50/50 transition-colors"
+    },
+    "badges": {
+      "style": "px-2.5 py-0.5 rounded-full text-xs font-semibold border"
+    }
+  },
+  "motion": {
+    "hover": "transition-all duration-200 ease-in-out",
+    "page_load": "animate-in fade-in slide-in-from-bottom-4 duration-500",
+    "status_pulse": "animate-pulse"
+  },
+  "icons": {
+    "library": "@phosphor-icons/react",
+    "weight": "regular",
+    "active_weight": "fill"
+  },
+  "media": {
+    "images": [
+      {
+        "category": "login_background",
+        "url": "https://images.unsplash.com/photo-1664732145436-b1cc8becac37?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjYXIlMjB3YXNoJTIwd2F0ZXIlMjBkcm9wcyUyMGFic3RyYWN0fGVufDB8fHx8MTc4MjY0NDg5Nnww&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract water drops on glass, use as a dark/moody overlay for the login page background to give a premium car wash feel."
+      },
+      {
+        "category": "empty_state",
+        "url": "https://images.unsplash.com/photo-1589750602846-60028879da9b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w8NjA0MTJ8MHwxfHNlYXJjaHwxfHxzaShinyJTIwY2xlYW4lMjBjYXIlMjBkZXRhaWwlMjBibHVlfGVufDB8fHx8MTc4MjY0NDg5Nnww&ixlib=rb-4.1.0&q=85",
+        "description": "Shiny blue car detail. Use for empty states (e.g., 'No cars currently waiting') with a reduced opacity."
+      }
+    ]
+  },
+  "testing": {
+    "attributes": "All interactive elements, forms, and key metric cards MUST include a 'data-testid' attribute using kebab-case (e.g., data-testid='submit-car-button', data-testid='metric-daily-revenue')."
+  },
+  "instructions_to_main_agent": [
+    "Install required dependencies: `yarn add @phosphor-icons/react`.",
+    "Implement layout strictly using the 'Control Room' grid approach: dense, high data visibility, utilizing the full width of the screen.",
+    "Override default Shadcn UI radius variables. The user selected a 'Minimalist and professional (business style)'. Use sharp corners (radius: 0.5rem or 0).",
+    "Ensure the dashboard handles 3 roles effectively: Super Admin (all metrics), Cashier (payments), Employee (own cars). Use conditional rendering based on user role.",
+    "Strictly apply the status colors (waiting, washing, completed, paid) as defined in the 'colors.status' object across all tables and cards.",
+    "When building the login screen, use the 'login_background' image URL as a full-cover background with a heavy backdrop blur or dark overlay.",
+    "Do NOT use standard HTML input/select elements. Rely heavily on Shadcn UI Form, Input, Select, and Dialog components.",
+    "Charts must use the primary brand color (#0052FF) and deep navy (#0A1128) for data visualization. Avoid default multicolor charts.",
+    "All components must be written in standard JavaScript (.js/.jsx), not TypeScript."
+  ]
+}
